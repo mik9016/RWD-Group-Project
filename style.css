@@ -74,17 +74,34 @@
 
 
 /* Clients */
-
+#clients .heading{
+  color:floralwhite;
+}
+#clients .col-12{
+  background-color: green;
+}
 .client{
   border-radius: 50%;
   max-width: 90%;
+  border: 3px solid green;
 }
-
-
 .blockquote p{
   width: 80%;
   margin: 0 auto;
+  font-size: 1.1rem;
+  font-style: italic;
 }
+.blockquote p::first-letter{
+  color: green;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.blockquote-footer{
+   background-color: green;
+   color: ghostwhite;
+   border-radius: 12px;
+}
+
 /* Contact FORM */
 #contact-form {
   max-width: 40vw;
