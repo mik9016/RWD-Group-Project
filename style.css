@@ -30,6 +30,9 @@
   background-image: url(img/coronavirus_background.jpg);
   background-size: contain;
 }
+img {
+    filter: invert(100%);
+}
 
 .caption{
   width: 100%;
