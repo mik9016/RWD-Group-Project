@@ -27,7 +27,7 @@
 /* Landing */
 
 .home-inner{
-  background-image: url(img/corona_back.jpg);
+  background-image: url(img/computers.png);
   background-size: contain;
 }
 
@@ -100,9 +100,6 @@ footer img{
 
 footer a:hover, footer p, footer h3{
   color: black;
-}
-img {
-  filter: invert(100%);
 }
 
 
