@@ -85,8 +85,11 @@
   width: 80%;
   margin: 0 auto;
 }
-
-
+/* Contact FORM */
+#contact-form {
+  max-width: 40vw;
+  
+}
 /* Contact */
 
 footer, footer a{
@@ -109,7 +112,12 @@ footer a:hover, footer p, footer h3{
   .client{
     max-width: 30vw;
   }
+  #contact-form {
+    max-width: 90vw;
+    
+  }
 }
+
 
 /*============= SECTION =============*/
 
