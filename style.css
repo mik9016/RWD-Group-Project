@@ -1,7 +1,7 @@
 /* Navigation */
 .navbar{
   text-transform: uppercase;
-  background-color: black;
+  background-color:blue;
   font-weight: bold;
   font-size: 0.9rem; /* 0.9 x 16px = 14,4 px */
   letter-spacing: 0.1rem;
@@ -54,7 +54,7 @@
 
 /* Course */
 #course{
-  background-color: lightgray;
+  background-color:springgreen;
 }
 
 /* Features */
@@ -82,7 +82,7 @@
 }
 .client{
   border-radius: 50%;
-  max-width: 90%;
+  max-width: 100%;
   border: 3px solid green;
 }
 .blockquote p{
@@ -100,8 +100,51 @@
    background-color: green;
    color: ghostwhite;
    border-radius: 12px;
+   animation: 5s anim3;
 }
-
+.blockquote-footer:hover{
+  animation: 6s anim4;
+}
+#clients img{
+  animation: 5s anim;
+}
+#clients img:hover{
+  animation: 7s anim2;
+}
+@keyframes anim{
+  0%{
+    transform: rotateY(360deg);
+  }
+  100%{
+    tranform: rotateY(0);
+  }
+}
+@keyframes anim2{
+  0%{
+    transform: rotateY(360deg);
+  }
+  100%{
+    tranform: rotateY(0);
+  }
+}
+@keyframes anim3{
+  0%{
+   margin-left:-360px;
+   background-color: goldenrod;
+  }
+  100%{
+     margin-left:0px;
+  }
+}
+@keyframes anim4{
+  0%{
+   margin-left:-360px;
+   background-color: goldenrod;
+  }
+  100%{
+     margin-left:0px;
+  }
+}
 /* Contact */
 
 footer, footer a{
