@@ -27,8 +27,11 @@
 /* Landing */
 
 .home-inner{
-  background-image: url(img/computers.png);
+  background-image: url(img/coronavirus_background.jpg);
   background-size: contain;
+}
+img {
+    filter: invert(100%);
 }
 
 .caption{
@@ -145,6 +148,13 @@
      margin-left:0px;
   }
 }
+
+/* Contact FORM */
+#contact-form {
+  max-width: 40vw;
+  
+}
+
 /* Contact */
 
 footer, footer a{
@@ -167,7 +177,12 @@ footer a:hover, footer p, footer h3{
   .client{
     max-width: 30vw;
   }
+  #contact-form {
+    max-width: 90vw;
+    
+  }
 }
+
 
 /*============= SECTION =============*/
 
