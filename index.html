@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/fixed.css" />
     <script src="Form.js" defer></script>
+    <script src="Covid-Data.js" defer></script>
   </head>
 
   <body>
@@ -217,6 +218,30 @@
       </div>
     </div>
     <!-- End section clients -->
+
+
+     <!--Start Numbers -->
+     <hr/>
+     <br>
+     <div id='numbers'>
+      <div class="row">
+         <div class="col-md text-center">
+           <h4>Nowe infekcje:</h4>
+           <h5 id="infections" class=""></h5>
+         </div>
+         <div class="col-md text-center">
+           <h4>Zmarli:</h4>
+           <h5 id="deaths" class=""></h5>
+         </div>
+         <div class="col-md text-center">
+           <h4>Wyzdrowało:</h4>
+           <h5 id="recovered" class=""></h5>
+         </div>
+      </div>
+    </div>
+    <hr/>
+    <br>
+     <!--End Numbers -->    
     <!-- Contact Form section -->
 
     <div class="container mb-3 border bg-light" id="contact-form">
@@ -288,6 +313,7 @@
       </form>
     </div>
     <!-- End Form section  -->
+
     <!-- Modal -->
     <div class="modal fade" id="submit-modal" tabindex="-1">
       <div class="modal-dialog">
