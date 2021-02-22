@@ -104,7 +104,16 @@ img {
    color: ghostwhite;
    border-radius: 12px;
 }
-
+/* Numbers */
+#infections{
+  color: red;
+}
+#deaths{
+  color: blue;
+}
+#recovered{
+  color: green;
+}
 /* Contact FORM */
 #contact-form {
   max-width: 40vw;
